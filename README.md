@@ -11,7 +11,6 @@ sudo yum install -y python-pip
 sudo pip install awscli
 
 
-
 #=======================================================================================================
 
 Appspec.yml file structure:
@@ -68,4 +67,3 @@ sudo pm2 delete Frontend
 sudo pm2 start server.js --name Frontend
 
 #=======================================================================================================
-
